@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- -------------------------------------------- -->
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/9e7f89687e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- --------------- -->
+    <!-- <link rel="stylesheet" href="css/carousel.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--  -->
+    <script defer src="main.js"></script>
+    <title>Shop</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="title">
+        <img src="images/logo.avif" alt="" class="logo" />
+        <a href="main.html" class="title__name">Fiction Party</a>
+      </div>
+
+      <ul class="list">
+        <li class="list__item">About</li>
+        <li class="list__item"><a href="login.html">Login</a></li>
+        <li class="list__item"><a href="shop.html">Shop</a></li>
+        <!-- <li class="list__item user-box">
+          <img src="images/user-img.png" alt="" class="user-img" />
+          User
+          <span>
+            <i class="fa-solid fa-circle-chevron-down">
+              <a href="index.html" class="before">Log out</a>
+            </i>
+          </span>
+        </li> -->
+      </ul>
+    </header>
+
+    <div class="search">
+      <input type="text" class="search__input" placeholder="Search" />
+      <i class="fa-light fa-solid fa-magnifying-glass search__icon"></i>
+    </div>
+
+    <div class="shop">
+      <div class="shop__row shop__row--1">
+        <div class="shop__element">
+          <a href="items/item-1.html">
+            <img class="shop__img" src="images/apple-m1-macbook.png" alt=""
+          /></a>
+          <div class="shop__desc-box">
+            <h4 class="shop__desc-title">Apple M1 MacBook 13</h4>
+            <p class="shop__desc-price">$898</p>
+          </div>
+          <button class="btn-cart">Add To Cart</button>
+        </div>
+
+        <div class="shop__element el-2">
+          <a href="items/item-2.html">
+            <img class="shop__img" src="images/asus-laptop.png" alt="" />
+          </a>
+          <div class="shop__desc-box">
+            <h4 class="shop__desc-title">
+              ASUS ULTRA SLIM i7-11th 8GB 512GB SSD
+            </h4>
+            <p class="shop__desc-price">$797</p>
+          </div>
+          <button class="btn-cart">Add To Cart</button>
+        </div>
+        <div class="shop__element">
+          <a href="items/item-3.html">
+            <img class="shop__img" src="images/razer-power-up.png" alt="" />
+          </a>
+
+          <div class="shop__desc-box">
+            <h4 class="shop__desc-title">Gaming Set Bundle</h4>
+            <p class="shop__desc-price">$93</p>
+          </div>
+          <button class="btn-cart">Add To Cart</button>
+        </div>
+        <div class="shop__element">
+          <a href="items/item-4.html">
+            <img class="shop__img" src="images/25inch-monitor.png" alt="" />
+          </a>
+          <div class="shop__desc-box">
+            <h4 class="shop__desc-title">25" ASUS Gaming Monitor</h4>
+            <p class="shop__desc-price">$308</p>
+          </div>
+          <button class="btn-cart">Add To Cart</button>
+        </div>
+        <div class="shop__element">
+          <a href="items/item-5.html">
+            <img class="shop__img" src="images/intel-i7-12700f.png" alt="" />
+          </a>
+          <div class="shop__desc-box">
+            <h4 class="shop__desc-title">Intel Core i7 12700F</h4>
+            <p class="shop__desc-price">$249</p>
+          </div>
+          <button class="btn-cart">Add To Cart</button>
+        </div>
+      </div>
+      <div class="shop__row shop__row--2">
+        <div class="shop__element">
+          <a href="items/item-6.html">
+            <img class="shop__img" src="images/gaming-chair.png" alt="" />
+          </a>
+          <div class="shop__desc-box">
+            <h4 class="shop__desc-title">Gaming Chair</h4>
+            <p class="shop__desc-price">$120</p>
+          </div>
+          <button class="btn-cart">Add To Cart</button>
+        </div>
+        <div class="shop__element el-razer">
+          <a href="items/item-7.html">
+            <img class="shop__img" src="images/razer-deathadder.png" alt="" />
+          </a>
+          <div class="shop__desc-box">
+            <h4 class="shop__desc-title">Razer Deathadder</h4>
+            <p class="shop__desc-price">$25</p>
+          </div>
+          <button class="btn-cart">Add To Cart</button>
+        </div>
+        <div class="shop__element">
+          <a href="items/item-8.html">
+            <img class="shop__img" src="images/rtx-3070.png" alt="" />
+          </a>
+          <div class="shop__desc-box">
+            <h4 class="shop__desc-title">RTX 3070</h4>
+            <p class="shop__desc-price">$500</p>
+          </div>
+          <button class="btn-cart">Add To Cart</button>
+        </div>
+        <div class="shop__element">
+          <a href="items/item-9.html">
+            <img class="shop__img" src="images/ram-kingston-32gb.png" alt="" />
+          </a>
+          <div class="shop__desc-box">
+            <h4 class="shop__desc-title">32 GB Ram</h4>
+            <p class="shop__desc-price">$30</p>
+          </div>
+          <button class="btn-cart">Add To Cart</button>
+        </div>
+        <div class="shop__element">
+          <a href="items/item-10.html">
+            <img class="shop__img" src="images/z590-e-asus.png" alt="" />
+          </a>
+          <div class="shop__desc-box">
+            <h4 class="shop__desc-title">Z-590-E ASUS</h4>
+            <p class="shop__desc-price">$169</p>
+          </div>
+          <button class="btn-cart">Add To Cart</button>
+        </div>
+      </div>
+      <a href="#" class="shop__btn">See more items</a>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__brands">
+        <i class="fa-brands fa-twitter footer__brand"></i>
+        <i class="fa-brands fa-facebook-f footer__brand"></i>
+        <i class="fa-brands fa-instagram footer__brand"></i>
+        <i class="fa-brands fa-discord footer__brand"></i>
+      </div>
+      <div class="footer__box">
+        © Copyright 2023 | All Rights Reserved |
+        <a href="#" class="privacy-policy">Privacy Policy</a>
+      </div>
+    </footer>
+  </body>
+</html>

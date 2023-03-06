@@ -1,0 +1,120 @@
+.spec-item {
+  background-image: linear-gradient(to top right, #bdc3c7c2, #2c3e5094);
+  display: flex;
+}
+
+.spec {
+  flex: 0 0 67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__information {
+    // background-color: var(--primary-color-medium);
+    padding: 6rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    // margin-left: 20rem;
+  }
+  &__uls {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+  }
+  &__img {
+    height: 40rem;
+    width: 40rem;
+    object-fit: fill;
+    // margin-left: -20rem;
+    margin-left: 5rem;
+    margin-top: -20rem;
+  }
+  &__title {
+    font-size: 3.5rem;
+  }
+  &__specs {
+    font-size: 2.2rem;
+    list-style: none;
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
+
+    strong {
+    }
+  }
+  &__payment {
+    background-image: linear-gradient(to top right, #544a7d59, #ffd45241);
+
+    // background-image: linear-gradient(to bottom right, #bdc3c7c2, #2c3e5094);
+
+    border: 1px solid gray;
+    border-radius: 3px;
+    // width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    // margin-right: 30rem;
+    padding: 1rem 2rem;
+  }
+
+  &__price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5rem;
+    margin-left: 2rem;
+    // margin-bottom: 3rem;
+    transition: all 0.2s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__geninfo {
+  }
+  &__in-stock {
+    font-size: 2.2rem;
+    color: #007600;
+    font-weight: 300;
+  }
+
+  &__qty-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  &_qty {
+    border: none;
+    width: 3rem;
+    padding: 0.5rem;
+    margin-right: 2rem;
+  }
+  &__about {
+    text-align: left;
+
+    span {
+      font-style: oblique;
+      font-weight: 600;
+      display: block;
+    }
+  }
+}
+
+.cart-btn {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 1rem 4rem;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #000;
+  }
+  &:hover {
+    background-image: linear-gradient(to bottom left, #544a7d79, #ffd4525d);
+    color: var(--primary-color-medium);
+  }
+}
